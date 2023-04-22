@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+		box-sizing: border-box;
+}
+:root{
+--color: #333;
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  opacity:.90;
+  background-position: center;
+  background-size: cover;
+  padding-right: 3%;
+  padding-left: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+.header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.projectimg{
+  width:100%;
+  height:99%;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  grid-gap: 15px;
+}
+ #grid > div {
+  font-size: 20px;
+  padding: .5em;
+  color: black;
+  text-align: center;
+}
+#gifs-rows img {
+  cursor: pointer;
+}
+#gifs-rows .gif-file {
+  display:none;
+}
